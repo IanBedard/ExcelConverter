@@ -11,6 +11,29 @@
     <script src="https://unpkg.com/read-excel-file@4.1.0/bundle/read-excel-file.min.js"></script>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Converter Tools</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor03">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://ianbedard.github.io/WordConverter/">docx | html
+              
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://ianbedard.github.io/ExcelConverter/">xlsx | json</a>  
+              <span class="visually-hidden">(current)</span>
+            </li>
+  
+          </ul>
+    
+        </div>
+      </div>
+    </nav>
     <div class="container">
       <div id="title">
         <div class="col-md-10">
@@ -39,7 +62,8 @@
             value="textOrigin"
             placeholder="Json will appear here"
           ></textarea>
-        </div>          <button type="button" id="dl-json" class="btn btn-primary">
+        </div>
+         <button type="button" id="dl-json" class="btn btn-primary">
             Copy Text
           </button>
       </div>
